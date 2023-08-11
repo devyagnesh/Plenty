@@ -1,0 +1,23 @@
+{
+    "name"              :   "Bdroppy",
+    "namespace"         :   "Bdroppy",
+    "type"              :   "general",
+    "version"           :   "0.0.1",
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "description"       :   "Fetching Bdroppy Products",
+    "author"            :   "Bdroppy",
+    "authorIcon"        :   "icon_author_xs.png",
+    "serviceProvider"   :   "Bdroppy\\Providers\\BdroppyServiceProvider",
+    "views": [
+        {
+            "name": "index",
+            "path": "views/index.html"
+        }
+    ],
+    "routes": [
+        {
+            "route": "/bdroppy",
+            "view": "index.html"
+        }
+    ]
+}
